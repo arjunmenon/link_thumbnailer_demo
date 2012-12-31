@@ -1,0 +1,34 @@
+<h1>Welcome to LinkThumbnailer Demo</h1>
+
+<%= form_tag '/link/preview', :method => 'post', :remote => true, :class => 'form-inline' do %>
+
+  <legend class="lead">
+    Try out LinkThumbnailer generator with an URL.
+  </legend>
+  <%= text_field_tag :url, 'http://foo.com' %>
+  <%= submit_tag 'Preview', :class => 'btn btn-primary' %>
+
+<% end %>
+
+<br />
+<br />
+
+<div id="preview" class="row">
+  <div class="span3">
+
+    <div id="images" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="active item"><img src="" alt=""></div>
+        <div class="item"></div>
+      </div>
+      <a style="display:none;" class="carousel-control left" href="#images" data-slide="prev">&lsaquo;</a>
+      <a style="display:none;" class="carousel-control right" href="#images" data-slide="next">&rsaquo;</a>
+    </div>
+
+  </div>
+
+  <div class="span3">
+    <h4 id="title"></h4>
+    <div><p id="desc"></p></div>
+  </div>
+</div>
