@@ -58,7 +58,7 @@ GEM
       actionpack (>= 3.1)
       less (~> 2.2.0)
     libv8 (3.3.10.4)
-    link_thumbnailer (1.0.0)
+    link_thumbnailer (1.0.1)
       hashie (~> 1.2.0)
       json (~> 1.7.6)
       net-http-persistent (~> 2.7)
