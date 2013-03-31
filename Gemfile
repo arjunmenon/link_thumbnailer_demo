@@ -15,5 +15,5 @@ group :assets do
 end
 
 gem "nifty-generators"
-gem "link_thumbnailer"
+gem "link_thumbnailer", '~> 1.0.3'
 gem "jquery-rails"
