@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.11'
+gem 'rails', '3.2.13'
 gem "mongoid", "~> 2.4"
 gem "bson_ext", "~> 1.5"
 
@@ -15,5 +15,5 @@ group :assets do
 end
 
 gem "nifty-generators"
-gem "link_thumbnailer", '~> 1.0.3'
+gem "link_thumbnailer", '1.0.9'
 gem "jquery-rails"
